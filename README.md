@@ -11,4 +11,4 @@ Redistribution, modification, decompilation, or resale of this software (in whol
 
 This software is provided **"AS IS"**, without any warranties, express or implied, including but not limited to merchantability or fitness for a particular purpose.
 
-Full license: [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[See Full License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
