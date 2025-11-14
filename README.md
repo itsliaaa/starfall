@@ -1,14 +1,29 @@
-# Starfall
+## ✨ Starfall
 
-© 2025 Lia
+A simple WhatsApp bot designed for quick setup and efficient use. It provides essential features such as social media content downloading, basic group management tools, and various general-purpose utilities, all accessible directly through WhatsApp.
 
-Licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
+### 📄 Requirements
 
-You may view and use this software for **personal or internal purposes only**.  
-Redistribution, modification, decompilation, or resale of this software (in whole or in part) is **strictly prohibited** without explicit written permission from the copyright holder.
+- [x] Node.js 20 (Recommended: v20.18.0)
+- [x] FFmpeg
+- [x] 1 GB RAM
+- [x] 1 vCPU
 
----
+### 📥 Installation & Run
 
-This software is provided **"AS IS"**, without any warranties, express or implied, including but not limited to merchantability or fitness for a particular purpose.
+> [!NOTE]
+> I’m not familiar with Windows because I primarily use Linux, so no Windows installation files are provided.
 
-[See Full License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+Ensure that your configuration and server meet the requirements to avoid errors during installation or while running the bot. Then execute the following command on your Linux console:
+
+```
+$ bash install.sh
+```
+
+And, run the bot:
+```
+$ pm2 start pm2.config.cjs && pm2 logs sf
+```
+
+> [!IMPORTANT]
+> Check this repository regularly for updates. The project is still under development (this is only a base or beta version). If you encounter any issues, please open an issue. Thank you!
