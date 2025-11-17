@@ -1,6 +1,6 @@
 {
    "name": "starfall",
-   "version": "0.0.1-lite",
+   "version": "0.0.1-dev",
    "description": "Simple WhatsApp Bot",
    "main": "index.js",
    "type": "module",
@@ -28,14 +28,13 @@
    "dependencies": {
       "awesome-phonenumber": "~2.59.0",
       "qrcode-terminal": "^0.12.0",
-      "syntax-error": "~1.4.0",
-      "yt-search": "^2.10.3",
-      "file-type": "~21.0.0",
+      "file-type": "~21.1.0",
       "mime-types": "~3.0.1",
       "node-webpmux": "^3.2.1",
       "node-cron": "~3.0.0",
-      "baileys": "~7.0.0-rc.6",
-      "dotenv": "^16.0.1",
-      "canvas": "7.0.1"
+      "baileys": "^7.0.0-rc.6",
+      "cheerio": "^1.1.2",
+      "canvas": "~3.2.0",
+      "acorn": "^8.15.0"
    }
 }
