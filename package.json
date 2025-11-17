@@ -1,6 +1,6 @@
 {
    "name": "starfall",
-   "version": "0.0.1-dev",
+   "version": "0.0.1-lite",
    "description": "Simple WhatsApp Bot",
    "main": "index.js",
    "type": "module",
