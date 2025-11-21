@@ -1,4 +1,4 @@
-## ✨ Starfall
+# ✨ Starfall
 
 A simple WhatsApp bot designed for quick setup and efficient use. It provides essential features such as social media content downloading, basic group management tools, and various general-purpose utilities, all accessible directly through WhatsApp.
 
@@ -10,7 +10,8 @@ A simple WhatsApp bot designed for quick setup and efficient use. It provides es
 - [x] 1 vCPU
 - [x] 1 GB RAM
 - [x] FFmpeg
-- [x] Node.js 20 (Recommended: v20.18.0)
+- [x] Node.js (Recommended: v20.18.1)
+- [x] Yarn Classic (Recommended: v1.22.22)
 
 ### 📥 Installation & Run
 
@@ -21,9 +22,8 @@ Ensure that your configuration and server meet the requirements to avoid errors 
 
 ```
 $ bash install.sh
-```
 
-And, run the bot:
-```
-$ pm2 start pm2.config.cjs && pm2 logs sf
+# And, run the bot
+
+$ pm2 start app.config.cjs && pm2 logs sf
 ```
